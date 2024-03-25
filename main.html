@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Python: module main</title>
+</head><body>
+
+<table class="heading">
+<tr class="heading-text decor">
+<td class="title">&nbsp;<br><strong class="title">main</strong></td>
+<td class="extra"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5C%D1%81%D0%B5%D1%80%D0%B3%D0%B5%D0%B9%5Cpycharmprojects%5Csorter%5Cmain.py">c:\users\сергей\pycharmprojects\sorter\main.py</a></td></tr></table>
+    <p></p>
+<p>
+<table class="section">
+<tr class="decor pkg-content-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Modules</strong></td></tr>
+    
+<tr><td class="decor pkg-content-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><table><tr><td class="multicolumn"><a href="copy.html">copy</a><br>
+<a href="numpy.html">numpy</a><br>
+</td><td class="multicolumn"><a href="pandas.html">pandas</a><br>
+<a href="matplotlib.pyplot.html">matplotlib.pyplot</a><br>
+</td><td class="multicolumn"><a href="pydoc.html">pydoc</a><br>
+</td><td class="multicolumn"></td></tr></table></td></tr></table><p>
+<table class="section">
+<tr class="decor index-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Classes</strong></td></tr>
+    
+<tr><td class="decor index-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><dl>
+<dt class="heading-text"><a href="builtins.html#object">builtins.object</a>
+</dt><dd>
+<dl>
+<dt class="heading-text"><a href="main.html#MySorter">MySorter</a>
+</dt></dl>
+</dd>
+</dl>
+ <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="MySorter">class <strong>MySorter</strong></a>(<a href="builtins.html#object">builtins.object</a>)</td></tr>
+    
+<tr><td class="decor title-decor" rowspan=2><span class="code">&nbsp;&nbsp;&nbsp;</span></td>
+<td class="decor title-decor" colspan=2><span class="code"><a href="#MySorter">MySorter</a>(set_number:&nbsp;int)<br>
+&nbsp;<br>
+<br>&nbsp;</span></td></tr>
+<tr><td>&nbsp;</td>
+<td class="singlecolumn">Methods defined here:<br>
+<dl><dt><a name="MySorter-__init__"><strong>__init__</strong></a>(self, set_number: int)</dt><dd><span class="code">Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</span></dd></dl>
+
+<dl><dt><a name="MySorter-__len__"><strong>__len__</strong></a>(self) -&gt; int</dt></dl>
+
+<dl><dt><a name="MySorter-__repr__"><strong>__repr__</strong></a>(self) -&gt; str</dt><dd><span class="code">Return&nbsp;repr(self).</span></dd></dl>
+
+<dl><dt><a name="MySorter-__str__"><strong>__str__</strong></a>(self) -&gt; str</dt><dd><span class="code">Return&nbsp;str(self).</span></dd></dl>
+
+<dl><dt><a name="MySorter-bubble_sort"><strong>bubble_sort</strong></a>(self) -&gt; None</dt></dl>
+
+<dl><dt><a name="MySorter-cocktail_sort"><strong>cocktail_sort</strong></a>(self) -&gt; None</dt></dl>
+
+<dl><dt><a name="MySorter-quicksort"><strong>quicksort</strong></a>(self) -&gt; None</dt></dl>
+
+<dl><dt><a name="MySorter-quicksort_calc"><strong>quicksort_calc</strong></a>(self, data: list) -&gt; list</dt></dl>
+
+<dl><dt><a name="MySorter-reset"><strong>reset</strong></a>(self) -&gt; None</dt></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><span class="code">dictionary&nbsp;for&nbsp;instance&nbsp;variables</span></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><span class="code">list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object</span></dd>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>ArrayRecord</strong> = &lt;class 'main.MySorter.ArrayRecord'&gt;</dl>
+
+<dl><dt><strong>available_companies</strong> = ['S7', 'Turkish Flights', 'Emirates Airlines', 'TickleAir', 'Pin Airlines']</dl>
+
+<dl><dt><strong>current_object_len</strong> = 0</dl>
+
+</td></tr></table></td></tr></table><p>
+<table class="section">
+<tr class="decor functions-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Functions</strong></td></tr>
+    
+<tr><td class="decor functions-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><dl><dt><a name="-choice"><strong>choice</strong></a>(...)<span class="grey"><span class="heading-text"> method of <a href="numpy.random.mtrand.html#RandomState">numpy.random.mtrand.RandomState</a> instance</span></span></dt><dd><span class="code"><a href="#-choice">choice</a>(a,&nbsp;size=None,&nbsp;replace=True,&nbsp;p=None)<br>
+&nbsp;<br>
+Generates&nbsp;a&nbsp;random&nbsp;sample&nbsp;from&nbsp;a&nbsp;given&nbsp;1-D&nbsp;array<br>
+&nbsp;<br>
+..&nbsp;versionadded::&nbsp;1.7.0<br>
+&nbsp;<br>
+..&nbsp;note::<br>
+&nbsp;&nbsp;&nbsp;&nbsp;New&nbsp;code&nbsp;should&nbsp;use&nbsp;the&nbsp;`~numpy.random.Generator.choice`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;method&nbsp;of&nbsp;a&nbsp;`~numpy.random.Generator`&nbsp;instance&nbsp;instead;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;please&nbsp;see&nbsp;the&nbsp;:ref:`random-quick-start`.<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+a&nbsp;:&nbsp;1-D&nbsp;array-like&nbsp;or&nbsp;int<br>
+&nbsp;&nbsp;&nbsp;&nbsp;If&nbsp;an&nbsp;ndarray,&nbsp;a&nbsp;random&nbsp;sample&nbsp;is&nbsp;generated&nbsp;from&nbsp;its&nbsp;elements.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;If&nbsp;an&nbsp;int,&nbsp;the&nbsp;random&nbsp;sample&nbsp;is&nbsp;generated&nbsp;as&nbsp;if&nbsp;it&nbsp;were&nbsp;``np.arange(a)``<br>
+size&nbsp;:&nbsp;int&nbsp;or&nbsp;tuple&nbsp;of&nbsp;ints,&nbsp;optional<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Output&nbsp;shape.&nbsp;&nbsp;If&nbsp;the&nbsp;given&nbsp;shape&nbsp;is,&nbsp;e.g.,&nbsp;``(m,&nbsp;n,&nbsp;k)``,&nbsp;then<br>
+&nbsp;&nbsp;&nbsp;&nbsp;``m&nbsp;*&nbsp;n&nbsp;*&nbsp;k``&nbsp;samples&nbsp;are&nbsp;drawn.&nbsp;&nbsp;Default&nbsp;is&nbsp;None,&nbsp;in&nbsp;which&nbsp;case&nbsp;a<br>
+&nbsp;&nbsp;&nbsp;&nbsp;single&nbsp;value&nbsp;is&nbsp;returned.<br>
+replace&nbsp;:&nbsp;boolean,&nbsp;optional<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Whether&nbsp;the&nbsp;sample&nbsp;is&nbsp;with&nbsp;or&nbsp;without&nbsp;replacement.&nbsp;Default&nbsp;is&nbsp;True,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;meaning&nbsp;that&nbsp;a&nbsp;value&nbsp;of&nbsp;``a``&nbsp;can&nbsp;be&nbsp;selected&nbsp;multiple&nbsp;times.<br>
+p&nbsp;:&nbsp;1-D&nbsp;array-like,&nbsp;optional<br>
+&nbsp;&nbsp;&nbsp;&nbsp;The&nbsp;probabilities&nbsp;associated&nbsp;with&nbsp;each&nbsp;entry&nbsp;in&nbsp;a.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;If&nbsp;not&nbsp;given,&nbsp;the&nbsp;sample&nbsp;assumes&nbsp;a&nbsp;uniform&nbsp;distribution&nbsp;over&nbsp;all<br>
+&nbsp;&nbsp;&nbsp;&nbsp;entries&nbsp;in&nbsp;``a``.<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+samples&nbsp;:&nbsp;single&nbsp;item&nbsp;or&nbsp;ndarray<br>
+&nbsp;&nbsp;&nbsp;&nbsp;The&nbsp;generated&nbsp;random&nbsp;samples<br>
+&nbsp;<br>
+Raises<br>
+------<br>
+ValueError<br>
+&nbsp;&nbsp;&nbsp;&nbsp;If&nbsp;a&nbsp;is&nbsp;an&nbsp;int&nbsp;and&nbsp;less&nbsp;than&nbsp;zero,&nbsp;if&nbsp;a&nbsp;or&nbsp;p&nbsp;are&nbsp;not&nbsp;1-dimensional,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;a&nbsp;is&nbsp;an&nbsp;array-like&nbsp;of&nbsp;size&nbsp;0,&nbsp;if&nbsp;p&nbsp;is&nbsp;not&nbsp;a&nbsp;vector&nbsp;of<br>
+&nbsp;&nbsp;&nbsp;&nbsp;probabilities,&nbsp;if&nbsp;a&nbsp;and&nbsp;p&nbsp;have&nbsp;different&nbsp;lengths,&nbsp;or&nbsp;if<br>
+&nbsp;&nbsp;&nbsp;&nbsp;replace=False&nbsp;and&nbsp;the&nbsp;sample&nbsp;size&nbsp;is&nbsp;greater&nbsp;than&nbsp;the&nbsp;population<br>
+&nbsp;&nbsp;&nbsp;&nbsp;size<br>
+&nbsp;<br>
+See&nbsp;Also<br>
+--------<br>
+randint,&nbsp;shuffle,&nbsp;permutation<br>
+random.Generator.choice:&nbsp;which&nbsp;should&nbsp;be&nbsp;used&nbsp;in&nbsp;new&nbsp;code<br>
+&nbsp;<br>
+Notes<br>
+-----<br>
+Setting&nbsp;user-specified&nbsp;probabilities&nbsp;through&nbsp;``p``&nbsp;uses&nbsp;a&nbsp;more&nbsp;general&nbsp;but&nbsp;less<br>
+efficient&nbsp;sampler&nbsp;than&nbsp;the&nbsp;default.&nbsp;The&nbsp;general&nbsp;sampler&nbsp;produces&nbsp;a&nbsp;different&nbsp;sample<br>
+than&nbsp;the&nbsp;optimized&nbsp;sampler&nbsp;even&nbsp;if&nbsp;each&nbsp;element&nbsp;of&nbsp;``p``&nbsp;is&nbsp;1&nbsp;/&nbsp;len(a).<br>
+&nbsp;<br>
+Sampling&nbsp;random&nbsp;rows&nbsp;from&nbsp;a&nbsp;2-D&nbsp;array&nbsp;is&nbsp;not&nbsp;possible&nbsp;with&nbsp;this&nbsp;function,<br>
+but&nbsp;is&nbsp;possible&nbsp;with&nbsp;`Generator.choice`&nbsp;through&nbsp;its&nbsp;``axis``&nbsp;keyword.<br>
+&nbsp;<br>
+Examples<br>
+--------<br>
+Generate&nbsp;a&nbsp;uniform&nbsp;random&nbsp;sample&nbsp;from&nbsp;np.arange(5)&nbsp;of&nbsp;size&nbsp;3:<br>
+&nbsp;<br>
+&gt;&gt;&gt;&nbsp;np.random.<a href="#-choice">choice</a>(5,&nbsp;3)<br>
+array([0,&nbsp;3,&nbsp;4])&nbsp;#&nbsp;random<br>
+&gt;&gt;&gt;&nbsp;#This&nbsp;is&nbsp;equivalent&nbsp;to&nbsp;np.random.<a href="#-randint">randint</a>(0,5,3)<br>
+&nbsp;<br>
+Generate&nbsp;a&nbsp;non-uniform&nbsp;random&nbsp;sample&nbsp;from&nbsp;np.arange(5)&nbsp;of&nbsp;size&nbsp;3:<br>
+&nbsp;<br>
+&gt;&gt;&gt;&nbsp;np.random.<a href="#-choice">choice</a>(5,&nbsp;3,&nbsp;p=[0.1,&nbsp;0,&nbsp;0.3,&nbsp;0.6,&nbsp;0])<br>
+array([3,&nbsp;3,&nbsp;0])&nbsp;#&nbsp;random<br>
+&nbsp;<br>
+Generate&nbsp;a&nbsp;uniform&nbsp;random&nbsp;sample&nbsp;from&nbsp;np.arange(5)&nbsp;of&nbsp;size&nbsp;3&nbsp;without<br>
+replacement:<br>
+&nbsp;<br>
+&gt;&gt;&gt;&nbsp;np.random.<a href="#-choice">choice</a>(5,&nbsp;3,&nbsp;replace=False)<br>
+array([3,1,0])&nbsp;#&nbsp;random<br>
+&gt;&gt;&gt;&nbsp;#This&nbsp;is&nbsp;equivalent&nbsp;to&nbsp;np.random.permutation(np.arange(5))[:3]<br>
+&nbsp;<br>
+Generate&nbsp;a&nbsp;non-uniform&nbsp;random&nbsp;sample&nbsp;from&nbsp;np.arange(5)&nbsp;of&nbsp;size<br>
+3&nbsp;without&nbsp;replacement:<br>
+&nbsp;<br>
+&gt;&gt;&gt;&nbsp;np.random.<a href="#-choice">choice</a>(5,&nbsp;3,&nbsp;replace=False,&nbsp;p=[0.1,&nbsp;0,&nbsp;0.3,&nbsp;0.6,&nbsp;0])<br>
+array([2,&nbsp;3,&nbsp;0])&nbsp;#&nbsp;random<br>
+&nbsp;<br>
+Any&nbsp;of&nbsp;the&nbsp;above&nbsp;can&nbsp;be&nbsp;repeated&nbsp;with&nbsp;an&nbsp;arbitrary&nbsp;array-like<br>
+instead&nbsp;of&nbsp;just&nbsp;integers.&nbsp;For&nbsp;instance:<br>
+&nbsp;<br>
+&gt;&gt;&gt;&nbsp;aa_milne_arr&nbsp;=&nbsp;['pooh',&nbsp;'rabbit',&nbsp;'piglet',&nbsp;'Christopher']<br>
+&gt;&gt;&gt;&nbsp;np.random.<a href="#-choice">choice</a>(aa_milne_arr,&nbsp;5,&nbsp;p=[0.5,&nbsp;0.1,&nbsp;0.1,&nbsp;0.3])<br>
+array(['pooh',&nbsp;'pooh',&nbsp;'pooh',&nbsp;'Christopher',&nbsp;'piglet'],&nbsp;#&nbsp;random<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dtype='&lt;U11')</span></dd></dl>
+ <dl><dt><a name="-get_time"><strong>get_time</strong></a>(func: Callable) -&gt; Callable</dt></dl>
+ <dl><dt><a name="-getcwd"><strong>getcwd</strong></a>()</dt><dd><span class="code">Return&nbsp;a&nbsp;unicode&nbsp;string&nbsp;representing&nbsp;the&nbsp;current&nbsp;working&nbsp;directory.</span></dd></dl>
+ <dl><dt><a name="-lab_1"><strong>lab_1</strong></a>()</dt></dl>
+ <dl><dt><a name="-mkdir"><strong>mkdir</strong></a>(path, mode=511, *, dir_fd=None)</dt><dd><span class="code">Create&nbsp;a&nbsp;directory.<br>
+&nbsp;<br>
+If&nbsp;dir_fd&nbsp;is&nbsp;not&nbsp;None,&nbsp;it&nbsp;should&nbsp;be&nbsp;a&nbsp;file&nbsp;descriptor&nbsp;open&nbsp;to&nbsp;a&nbsp;directory,<br>
+&nbsp;&nbsp;and&nbsp;path&nbsp;should&nbsp;be&nbsp;relative;&nbsp;path&nbsp;will&nbsp;then&nbsp;be&nbsp;relative&nbsp;to&nbsp;that&nbsp;directory.<br>
+dir_fd&nbsp;may&nbsp;not&nbsp;be&nbsp;implemented&nbsp;on&nbsp;your&nbsp;platform.<br>
+&nbsp;&nbsp;If&nbsp;it&nbsp;is&nbsp;unavailable,&nbsp;using&nbsp;it&nbsp;will&nbsp;raise&nbsp;a&nbsp;NotImplementedError.<br>
+&nbsp;<br>
+The&nbsp;mode&nbsp;argument&nbsp;is&nbsp;ignored&nbsp;on&nbsp;Windows.&nbsp;Where&nbsp;it&nbsp;is&nbsp;used,&nbsp;the&nbsp;current&nbsp;umask<br>
+value&nbsp;is&nbsp;first&nbsp;masked&nbsp;out.</span></dd></dl>
+ <dl><dt><a name="-prepare_data"><strong>prepare_data</strong></a>() -&gt; None</dt></dl>
+ <dl><dt><a name="-randint"><strong>randint</strong></a>(...)<span class="grey"><span class="heading-text"> method of <a href="numpy.random.mtrand.html#RandomState">numpy.random.mtrand.RandomState</a> instance</span></span></dt><dd><span class="code"><a href="#-randint">randint</a>(low,&nbsp;high=None,&nbsp;size=None,&nbsp;dtype=int)<br>
+&nbsp;<br>
+Return&nbsp;random&nbsp;integers&nbsp;from&nbsp;`low`&nbsp;(inclusive)&nbsp;to&nbsp;`high`&nbsp;(exclusive).<br>
+&nbsp;<br>
+Return&nbsp;random&nbsp;integers&nbsp;from&nbsp;the&nbsp;"discrete&nbsp;uniform"&nbsp;distribution&nbsp;of<br>
+the&nbsp;specified&nbsp;dtype&nbsp;in&nbsp;the&nbsp;"half-open"&nbsp;interval&nbsp;[`low`,&nbsp;`high`).&nbsp;If<br>
+`high`&nbsp;is&nbsp;None&nbsp;(the&nbsp;default),&nbsp;then&nbsp;results&nbsp;are&nbsp;from&nbsp;[0,&nbsp;`low`).<br>
+&nbsp;<br>
+..&nbsp;note::<br>
+&nbsp;&nbsp;&nbsp;&nbsp;New&nbsp;code&nbsp;should&nbsp;use&nbsp;the&nbsp;`~numpy.random.Generator.integers`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;method&nbsp;of&nbsp;a&nbsp;`~numpy.random.Generator`&nbsp;instance&nbsp;instead;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;please&nbsp;see&nbsp;the&nbsp;:ref:`random-quick-start`.<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+low&nbsp;:&nbsp;int&nbsp;or&nbsp;array-like&nbsp;of&nbsp;ints<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Lowest&nbsp;(signed)&nbsp;integers&nbsp;to&nbsp;be&nbsp;drawn&nbsp;from&nbsp;the&nbsp;distribution&nbsp;(unless<br>
+&nbsp;&nbsp;&nbsp;&nbsp;``high=None``,&nbsp;in&nbsp;which&nbsp;case&nbsp;this&nbsp;parameter&nbsp;is&nbsp;one&nbsp;above&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*highest*&nbsp;such&nbsp;integer).<br>
+high&nbsp;:&nbsp;int&nbsp;or&nbsp;array-like&nbsp;of&nbsp;ints,&nbsp;optional<br>
+&nbsp;&nbsp;&nbsp;&nbsp;If&nbsp;provided,&nbsp;one&nbsp;above&nbsp;the&nbsp;largest&nbsp;(signed)&nbsp;integer&nbsp;to&nbsp;be&nbsp;drawn<br>
+&nbsp;&nbsp;&nbsp;&nbsp;from&nbsp;the&nbsp;distribution&nbsp;(see&nbsp;above&nbsp;for&nbsp;behavior&nbsp;if&nbsp;``high=None``).<br>
+&nbsp;&nbsp;&nbsp;&nbsp;If&nbsp;array-like,&nbsp;must&nbsp;contain&nbsp;integer&nbsp;values<br>
+size&nbsp;:&nbsp;int&nbsp;or&nbsp;tuple&nbsp;of&nbsp;ints,&nbsp;optional<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Output&nbsp;shape.&nbsp;&nbsp;If&nbsp;the&nbsp;given&nbsp;shape&nbsp;is,&nbsp;e.g.,&nbsp;``(m,&nbsp;n,&nbsp;k)``,&nbsp;then<br>
+&nbsp;&nbsp;&nbsp;&nbsp;``m&nbsp;*&nbsp;n&nbsp;*&nbsp;k``&nbsp;samples&nbsp;are&nbsp;drawn.&nbsp;&nbsp;Default&nbsp;is&nbsp;None,&nbsp;in&nbsp;which&nbsp;case&nbsp;a<br>
+&nbsp;&nbsp;&nbsp;&nbsp;single&nbsp;value&nbsp;is&nbsp;returned.<br>
+dtype&nbsp;:&nbsp;dtype,&nbsp;optional<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Desired&nbsp;dtype&nbsp;of&nbsp;the&nbsp;result.&nbsp;Byteorder&nbsp;must&nbsp;be&nbsp;native.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;The&nbsp;default&nbsp;value&nbsp;is&nbsp;int.<br>
+&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;..&nbsp;versionadded::&nbsp;1.11.0<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+out&nbsp;:&nbsp;int&nbsp;or&nbsp;ndarray&nbsp;of&nbsp;ints<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`size`-shaped&nbsp;array&nbsp;of&nbsp;random&nbsp;integers&nbsp;from&nbsp;the&nbsp;appropriate<br>
+&nbsp;&nbsp;&nbsp;&nbsp;distribution,&nbsp;or&nbsp;a&nbsp;single&nbsp;such&nbsp;random&nbsp;int&nbsp;if&nbsp;`size`&nbsp;not&nbsp;provided.<br>
+&nbsp;<br>
+See&nbsp;Also<br>
+--------<br>
+random_integers&nbsp;:&nbsp;similar&nbsp;to&nbsp;`randint`,&nbsp;only&nbsp;for&nbsp;the&nbsp;closed<br>
+&nbsp;&nbsp;&nbsp;&nbsp;interval&nbsp;[`low`,&nbsp;`high`],&nbsp;and&nbsp;1&nbsp;is&nbsp;the&nbsp;lowest&nbsp;value&nbsp;if&nbsp;`high`&nbsp;is<br>
+&nbsp;&nbsp;&nbsp;&nbsp;omitted.<br>
+random.Generator.integers:&nbsp;which&nbsp;should&nbsp;be&nbsp;used&nbsp;for&nbsp;new&nbsp;code.<br>
+&nbsp;<br>
+Examples<br>
+--------<br>
+&gt;&gt;&gt;&nbsp;np.random.<a href="#-randint">randint</a>(2,&nbsp;size=10)<br>
+array([1,&nbsp;0,&nbsp;0,&nbsp;0,&nbsp;1,&nbsp;1,&nbsp;0,&nbsp;0,&nbsp;1,&nbsp;0])&nbsp;#&nbsp;random<br>
+&gt;&gt;&gt;&nbsp;np.random.<a href="#-randint">randint</a>(1,&nbsp;size=10)<br>
+array([0,&nbsp;0,&nbsp;0,&nbsp;0,&nbsp;0,&nbsp;0,&nbsp;0,&nbsp;0,&nbsp;0,&nbsp;0])<br>
+&nbsp;<br>
+Generate&nbsp;a&nbsp;2&nbsp;x&nbsp;4&nbsp;array&nbsp;of&nbsp;ints&nbsp;between&nbsp;0&nbsp;and&nbsp;4,&nbsp;inclusive:<br>
+&nbsp;<br>
+&gt;&gt;&gt;&nbsp;np.random.<a href="#-randint">randint</a>(5,&nbsp;size=(2,&nbsp;4))<br>
+array([[4,&nbsp;0,&nbsp;2,&nbsp;1],&nbsp;#&nbsp;random<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[3,&nbsp;2,&nbsp;2,&nbsp;0]])<br>
+&nbsp;<br>
+Generate&nbsp;a&nbsp;1&nbsp;x&nbsp;3&nbsp;array&nbsp;with&nbsp;3&nbsp;different&nbsp;upper&nbsp;bounds<br>
+&nbsp;<br>
+&gt;&gt;&gt;&nbsp;np.random.<a href="#-randint">randint</a>(1,&nbsp;[3,&nbsp;5,&nbsp;10])<br>
+array([2,&nbsp;2,&nbsp;9])&nbsp;#&nbsp;random<br>
+&nbsp;<br>
+Generate&nbsp;a&nbsp;1&nbsp;by&nbsp;3&nbsp;array&nbsp;with&nbsp;3&nbsp;different&nbsp;lower&nbsp;bounds<br>
+&nbsp;<br>
+&gt;&gt;&gt;&nbsp;np.random.<a href="#-randint">randint</a>([1,&nbsp;5,&nbsp;7],&nbsp;10)<br>
+array([9,&nbsp;8,&nbsp;7])&nbsp;#&nbsp;random<br>
+&nbsp;<br>
+Generate&nbsp;a&nbsp;2&nbsp;by&nbsp;4&nbsp;array&nbsp;using&nbsp;broadcasting&nbsp;with&nbsp;dtype&nbsp;of&nbsp;uint8<br>
+&nbsp;<br>
+&gt;&gt;&gt;&nbsp;np.random.<a href="#-randint">randint</a>([1,&nbsp;3,&nbsp;5,&nbsp;7],&nbsp;[[10],&nbsp;[20]],&nbsp;dtype=np.uint8)<br>
+array([[&nbsp;8,&nbsp;&nbsp;6,&nbsp;&nbsp;9,&nbsp;&nbsp;7],&nbsp;#&nbsp;random<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&nbsp;1,&nbsp;16,&nbsp;&nbsp;9,&nbsp;12]],&nbsp;dtype=uint8)</span></dd></dl>
+ <dl><dt><a name="-shuffle"><strong>shuffle</strong></a>(...)<span class="grey"><span class="heading-text"> method of <a href="numpy.random.mtrand.html#RandomState">numpy.random.mtrand.RandomState</a> instance</span></span></dt><dd><span class="code"><a href="#-shuffle">shuffle</a>(x)<br>
+&nbsp;<br>
+Modify&nbsp;a&nbsp;sequence&nbsp;in-place&nbsp;by&nbsp;shuffling&nbsp;its&nbsp;contents.<br>
+&nbsp;<br>
+This&nbsp;function&nbsp;only&nbsp;shuffles&nbsp;the&nbsp;array&nbsp;along&nbsp;the&nbsp;first&nbsp;axis&nbsp;of&nbsp;a<br>
+multi-dimensional&nbsp;array.&nbsp;The&nbsp;order&nbsp;of&nbsp;sub-arrays&nbsp;is&nbsp;changed&nbsp;but<br>
+their&nbsp;contents&nbsp;remains&nbsp;the&nbsp;same.<br>
+&nbsp;<br>
+..&nbsp;note::<br>
+&nbsp;&nbsp;&nbsp;&nbsp;New&nbsp;code&nbsp;should&nbsp;use&nbsp;the&nbsp;`~numpy.random.Generator.shuffle`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;method&nbsp;of&nbsp;a&nbsp;`~numpy.random.Generator`&nbsp;instance&nbsp;instead;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;please&nbsp;see&nbsp;the&nbsp;:ref:`random-quick-start`.<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+x&nbsp;:&nbsp;ndarray&nbsp;or&nbsp;MutableSequence<br>
+&nbsp;&nbsp;&nbsp;&nbsp;The&nbsp;array,&nbsp;list&nbsp;or&nbsp;mutable&nbsp;sequence&nbsp;to&nbsp;be&nbsp;shuffled.<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+None<br>
+&nbsp;<br>
+See&nbsp;Also<br>
+--------<br>
+random.Generator.shuffle:&nbsp;which&nbsp;should&nbsp;be&nbsp;used&nbsp;for&nbsp;new&nbsp;code.<br>
+&nbsp;<br>
+Examples<br>
+--------<br>
+&gt;&gt;&gt;&nbsp;arr&nbsp;=&nbsp;np.arange(10)<br>
+&gt;&gt;&gt;&nbsp;np.random.<a href="#-shuffle">shuffle</a>(arr)<br>
+&gt;&gt;&gt;&nbsp;arr<br>
+[1&nbsp;7&nbsp;5&nbsp;2&nbsp;9&nbsp;4&nbsp;3&nbsp;6&nbsp;0&nbsp;8]&nbsp;#&nbsp;random<br>
+&nbsp;<br>
+Multi-dimensional&nbsp;arrays&nbsp;are&nbsp;only&nbsp;shuffled&nbsp;along&nbsp;the&nbsp;first&nbsp;axis:<br>
+&nbsp;<br>
+&gt;&gt;&gt;&nbsp;arr&nbsp;=&nbsp;np.arange(9).reshape((3,&nbsp;3))<br>
+&gt;&gt;&gt;&nbsp;np.random.<a href="#-shuffle">shuffle</a>(arr)<br>
+&gt;&gt;&gt;&nbsp;arr<br>
+array([[3,&nbsp;4,&nbsp;5],&nbsp;#&nbsp;random<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6,&nbsp;7,&nbsp;8],<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[0,&nbsp;1,&nbsp;2]])</span></dd></dl>
+ <dl><dt><a name="-time_calc"><strong>time_calc</strong></a> = time(...)</dt><dd><span class="code">time()&nbsp;-&gt;&nbsp;floating&nbsp;point&nbsp;number<br>
+&nbsp;<br>
+Return&nbsp;the&nbsp;current&nbsp;time&nbsp;in&nbsp;seconds&nbsp;since&nbsp;the&nbsp;Epoch.<br>
+Fractions&nbsp;of&nbsp;a&nbsp;second&nbsp;may&nbsp;be&nbsp;present&nbsp;if&nbsp;the&nbsp;system&nbsp;clock&nbsp;provides&nbsp;them.</span></dd></dl>
+</td></tr></table><p>
+<table class="section">
+<tr class="decor data-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Data</strong></td></tr>
+    
+<tr><td class="decor data-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><strong>Callable</strong> = typing.Callable<br>
+<strong>executed_times</strong> = {}</td></tr></table>
+</body></html>
